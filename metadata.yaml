@@ -1,0 +1,30 @@
+- name: NaikaiFont
+  displayname: 內海字體
+  category: handwriting
+  subsets:
+   - cjk
+   - latin
+   - Hangul Syllables
+   - Yi Syllables
+  style:
+    normal:
+      - filename: dist/NaikaiFont-ExtraLight
+        codes: 46817
+        weight: 200
+        xfl: true
+      - filename: dist/NaikaiFont-Light
+        codes: 46817
+        weight: 300
+        xfl: true
+      - filename: dist/NaikaiFont-Regular
+        codes: 46819
+        weight: 400
+        xfl: true
+      - filename: dist/NaikaiFont-SemiBold
+        codes: 46871
+        weight: 600
+        xfl: true
+      - filename: dist/NaikaiFont-Bold
+        codes: 46817
+        weight: 700
+        xfl: true
